@@ -1,0 +1,66 @@
+#game{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    background-image:url("C:\Users\mehme\OneDrive\Desktop\EduCode\E.png") ;
+
+}
+
+button {
+    background-color: gray;
+    color: white;
+    margin-top: 10px;
+    font-size: 50px;
+    border: none;
+    border-radius: 8px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    border: 1px solid #393E46;
+    cursor: pointer;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+}
+
+#winning-text{
+    position: relative;
+    top : 220px;
+    left: 350px;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: white;
+    background-color: red;
+    border-radius: 10PX;
+    padding: 10px 20px;
+}
+#winning-text2{
+    position: relative;
+    top : 138px;
+ right: 350px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+    background-color: red;
+    border-radius: 10PX;
+    padding: 10px 20px;
+}
